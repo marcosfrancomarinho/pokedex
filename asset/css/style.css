@@ -89,8 +89,8 @@ main {
     top: 30%;
     left: 47%;
     width: 30%;
-    max-height: 110px;
-    transform: translate(-50%, 0);
+    max-height: 100px;
+    transform: translate(-50%, -5%);
 }
 
 @media screen and (max-width:600px) {
