@@ -47,8 +47,7 @@ elmts.btnBack.onclick = () => {
 }
 elmts.form.onsubmit = (event) => {
     event.preventDefault()
-    choose(elmts, elmts.search.value.toLowerCase())
-    elmts.search.value = " "
+    choose(elmts, elmts.search.value.toLowerCase())
 }
 choose(elmts, elmts.index)
 
