@@ -30,7 +30,7 @@ async function choose(e, value) {
         e.idPokemon.innerHTML = " "
         e.namePokemon.innerHTML = "NOT FOUND"
         setTimeout(() => {
-            choose(elmts, elmts.index)
+            location.reload()
         }, 2000)
     }
 
