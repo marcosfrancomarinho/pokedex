@@ -90,7 +90,7 @@ main {
     left: 47%;
     width: 30%;
     max-height: 100px;
-    transform: translate(-50%, -5%);
+    transform: translate(-50%, -8%);
 }
 
 @media screen and (max-width:600px) {
