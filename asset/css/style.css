@@ -18,6 +18,7 @@ main {
     display: inline-block;
     width: 29vw;
     margin-top: 10px;
+    padding: 2px;
 
 }
 
@@ -85,10 +86,10 @@ main {
 
 .image-pokemon {
     position: absolute;
-    top: 32%;
+    top: 34%;
     left: 47%;
     width: 30%;
-    max-height: 80px;
+    max-height: 110px;
     transform: translate(-50%, 0);
 }
 
@@ -122,7 +123,9 @@ main {
     .btn-back:active {
         font-size: 3.2vw;
     }
+
     .image-pokemon {
+        top: 31%;
         max-height: 130px;
-    }   
+    }
 }
