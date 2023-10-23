@@ -100,7 +100,7 @@ main {
 
     .name-pokemon,
     .id-pokemon {
-        font-size: 8vw;
+        font-size: 7.5vw;
     }
 
     .search {
@@ -125,7 +125,7 @@ main {
     }
 
     .image-pokemon {
-        top: 31%;
+        top: 29%;
         max-height: 130px;
     }
 }
