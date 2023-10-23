@@ -25,7 +25,7 @@ async function choose(e, value) {
         e.idPokemon.innerHTML = ` -${response["id"]}-`
         e.namePokemon.innerHTML = response["name"]
         e.index = response.id
-        e.search.value = " "
+        e.search.value = ""
   } else {
         e.imagePokemon.style.display = "none"
         e.idPokemon.innerHTML = " "
