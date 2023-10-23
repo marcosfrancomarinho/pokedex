@@ -100,7 +100,7 @@ main {
 
     .name-pokemon,
     .id-pokemon {
-        font-size: 7.5vw;
+        font-size: 7.3vw;
     }
 
     .search {
@@ -127,5 +127,32 @@ main {
     .image-pokemon {
         top: 29%;
         max-height: 130px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .search {
+        font-size: 1.5vw;
+        padding: 4%;
+    }
+
+    .btn {
+        width: 60%;
+        display: flex;
+        gap: 10px;
+        position: absolute;
+        top: 78%;
+        left: 30%;
+        transform: translate(-20%, 0);
+    }
+
+    .btn-next,
+    .btn-back {
+        padding: 8%;
+        font-size: 1.5vw;
+    }
+
+    .image-pokemon {
+        max-height: 160px;
     }
 }
